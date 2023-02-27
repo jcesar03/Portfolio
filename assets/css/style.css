@@ -10,7 +10,6 @@
 
 body {
   background: linear-gradient(180deg, #000000 70.31%, #0f4c75 95.83%);
-  background-attachment: fixed;
 }
 
 .header {
@@ -51,7 +50,6 @@ body {
 
 .main-apresentation {
   display: flex;
-  padding-top: 50px;
   justify-content: space-between;
   align-items: center;
 }
@@ -352,7 +350,7 @@ body {
   .header p {
     padding-top: 20px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .navBar {
@@ -362,7 +360,7 @@ body {
 
   .navBar-item {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .navBar-item a {
@@ -398,12 +396,12 @@ body {
   }
 
   .apresentation-content p {
-    font-size: 18px;
+    font-size: 22px;
     color: #bbe1fa;
   }
 
   .apresentation-content h2 {
-    font-size: 22px;
+    font-size: 50px;
   }
 
   .social-buttons {
@@ -411,13 +409,13 @@ body {
   }
 
   .social-button svg {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
   }
 
   .social-button {
-    width: 109px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     margin-top: 15px;
     display: flex;
     align-items: center;
@@ -427,7 +425,7 @@ body {
     border: 2px solid #0f4c75;
     border-radius: 30px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     color: #0f4c75;
     text-decoration: none;
     transition: 1s;
@@ -440,12 +438,12 @@ body {
 
   .aboutMe h2 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     color: #3282b8;
   }
 
   .aboutMe p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .knowledges {
@@ -454,7 +452,7 @@ body {
   }
 
   .knowledges h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .cards-section {
