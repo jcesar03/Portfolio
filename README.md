@@ -19,6 +19,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Portfólio feito com o intuito de praticar meus conhecimentos sobre criação de paginas web, e também para divulgação de meus conhecimentos em desenvolvimento front end e  divulgação de projetos futuros
 
 link para visualização do projeto: https://jcesar03.github.io/Portfolio/
-
-## memo: Licença
-Esse projeto está sob a licença MIT.
