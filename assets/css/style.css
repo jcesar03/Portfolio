@@ -33,11 +33,11 @@ body {
   font-weight: 400;
   color: #3282b8;
   text-decoration: none;
-  transition: 0.2s;
 }
 
 .navBar-item a:hover {
-  border-bottom: solid #3282b8;
+  color: #1d4d6d;
+  border-bottom: solid #1d4d6d;
 }
 
 .container {
@@ -289,6 +289,10 @@ body {
     gap: 100px 80px;
   }
 
+  .cards-section a {
+    text-decoration: none;
+  }
+
   .card {
     width: 300px;
     height: 450px;
@@ -335,6 +339,11 @@ body {
     height: 200px;
     filter: blur(2px);
     background-color: rgba(128, 128, 128, 0.514);
+  }
+
+  .pokedex {
+    width: 100%;
+    height: 200px;
   }
 
   .footer {
