@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   color: white;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -126,9 +127,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.card:hover {
   background: linear-gradient(180deg, #0a0e10 39.06%, #000000 100%);
   border: 2px solid #bbe1fa;
-  border-radius: 10px;
 }
 
 .card p {
@@ -152,6 +158,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.projects-card:hover {
+  border: 2px solid #bbe1fa;
 }
 
 .projects-card p {
@@ -384,7 +398,9 @@ body {
     align-items: center;
   }
 
-  .apresentation-img {
+  .apresentation-img,
+  .animate__animated,
+  .animate__bounceInRigh {
     display: none;
   }
 
